@@ -1,0 +1,569 @@
+* {
+	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ 	list-style: none;
+ 	font-family: kanit;
+}
+body{
+	background-color: #4ABDAC;
+}
+
+/* navbar */
+.navigator nav {
+	position: relative;
+	width: 100%;
+	height: 60px;
+	background-color: #4ABDAC;
+	box-shadow: -1px -7px 20px 0px #4ABDAC;
+}
+.navigator nav ul{
+	position: relative;
+	top: 20px;
+	margin: 0;
+	float: right;
+	right: 10%;
+}
+.navigator nav ul li {
+	float: left;
+	display: block;
+	margin: 0px 15px 0px 15px;
+}
+.navigator nav ul li a {
+	text-decoration: none;
+	color: #DFDCE3;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+}
+.navigator nav ul li a:hover{
+	color: #F7B733;
+}
+.sapaan{
+position: absolute;
+width: 372px;
+height: 45px;
+left: 157px;
+top: 196px;
+
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
+
+
+/* SHUNSINE */
+
+color: #F7B733;
+}
+.Mahasiswa{
+
+	position: absolute;
+width: 565px;
+height: 140px;
+left: 155px;
+top: 238px;
+
+font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 46px;
+line-height: 69px;
+
+color: #D5D5D5;
+
+}
+.tentang{
+position: absolute;
+width: 533px;
+height: 152px;
+left: 157px;
+top: 398px;
+
+/* Body Text */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+
+color: #F2F2F2;
+}
+.garis1{
+position: absolute;
+width: 1500px;
+height: 0px;
+left: -41px;
+top: 55px;
+
+/* SHUNSINE */
+
+border: 1px solid #F7B733;
+transform: rotate(54.38deg);
+}
+.gambar1 img{
+position: absolute;
+width: 408px;
+height: 440px;
+left: 1050px;
+top: 196px;
+
+filter: drop-shadow(40px 40px 80px rgba(0, 0, 0, 0.2));
+
+}
+.kotak1 div{
+	position: absolute;
+width: 313px;
+height: 454px;
+border-style: solid;
+border-width: 2px;
+left: 868px;
+top: 167px;
+
+background: linear-gradient(194.78deg, #9A9A9A -27.64%, rgba(255, 255, 255, 0) 89.56%), #4ABDAC;
+}
+.tombol{
+	/* Email Me */
+
+
+position: absolute;
+width: 67px;
+height: 19px;
+left: 202px;
+top: 588px;
+
+/* Body Text */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.imgtombol img{
+	position: absolute;
+width: 18.72px;
+height: 20px;
+left: 173px;
+top: 587px;
+}
+.judul3{
+position: absolute;
+width: 386px;
+height: 69px;
+left: 156px;
+top: 703px;
+
+font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 46px;
+line-height: 69px;
+/* identical to box height */
+
+
+/* SHUNSINE */
+
+color: #F7B733;
+opacity: 0.9;
+}
+.sd{
+position: relative;
+width: 216px;
+height: 45px;
+margin-right: 100px;
+margin-left: 155px;
+top: 809px;
+
+
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
+
+
+color: #F2F2F2;	
+}
+.smp{
+position: absolute;
+width: 258px;
+height: 45px;
+left: 155px;
+top: 960px;
+
+
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
+
+
+color: #F2F2F2;
+}
+.smk{
+position: absolute;
+width: 201px;
+height: 45px;
+left: 158px;
+top: 1050px;
+
+font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
+
+
+color: #F2F2F2;
+
+}
+.kuliah{
+position: absolute;
+width: 392px;
+height: 45px;
+left: 153px;
+top: 1140px;
+
+font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
+
+
+color: #F2F2F2;
+}
+.hiasan{
+position: absolute;
+width: 824px;
+height: 299px;
+left: 800px;
+top: 697px;
+
+
+font-style: normal;
+font-weight: 600;
+font-size: 200px;
+line-height: 299px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+opacity: 0.2;
+border: 3px solid #F2F2F2;
+}
+.judul4{
+	position: absolute;
+width: 386px;
+height: 69px;
+left: 173px;
+top: 1310px;
+
+font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 46px;
+line-height: 69px;
+/* identical to box height */
+
+
+/* SHUNSINE */
+
+color: #F7B733;
+opacity: 0.9;
+}
+.gambar2 img{
+	position: absolute;
+width: 220px;
+height: 234px;
+left: 264px;
+top: 1495px;
+}
+.belajar{
+	position: absolute;
+width: 245px;
+height: 120px;
+left: 759px;
+top: 1443px;
+
+font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+
+color: #F2F2F2;
+
+}
+.desain{
+	position: absolute;
+width: 245px;
+height: 120px;
+left: 759px;
+top: 1498px;
+
+font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+
+color: #F7B733;
+}
+.isiint{
+	position: absolute;
+width: 533px;
+height: 57px;
+left: 770px;
+top: 1587px;
+
+/* Body Text */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+
+color: #F2F2F2;
+}
+.hobbi{
+	position: absolute;
+width: 174px;
+height: 69px;
+left: 173px;
+top: 1967px;
+
+font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 46px;
+line-height: 69px;
+/* identical to box height */
+
+
+/* SHUNSINE */
+
+color: #F7B733;
+opacity: 0.9;
+}
+.isihobi{
+	position: absolute;
+width: 216px;
+height: 47px;
+left: 194px;
+top: 2074px;
+
+font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+
+color: #F2F2F2;
+}
+.isihobi2{
+	position: absolute;
+width: 216px;
+height: 47px;
+left: 800px;
+top: 2074px;
+
+font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+
+color: #F2F2F2;
+}
+.skil{
+	position: absolute;
+width: 114px;
+height: 69px;
+left: 800px;
+top: 2340px;
+
+font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 46px;
+line-height: 69px;
+/* identical to box height */
+
+
+/* SHUNSINE */
+
+color: #F7B733;
+opacity: 0.9;
+}
+.isiskil{
+	position: absolute;
+width: 216px;
+height: 47px;
+left: 209px;
+top: 2500px;
+
+font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+
+color: #F4F4F4;
+
+}
+.isiskil2{
+	position: absolute;
+width: 216px;
+height: 47px;
+left: 887px;
+top: 2500px;
+
+font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+
+color: #F4F4F4;
+}
+.fot{
+	position: absolute;
+width: 259px;
+height: 69px;
+left: 160px;
+top: 2900px;
+
+font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 46px;
+line-height: 69px;
+/* identical to box height */
+
+
+color: #F2F2F2;
+
+opacity: 0.9;
+}
+.igimg img{
+position: absolute;
+width: 17.87px;
+height: 20px;
+left: 166px;
+top: 2980px;
+
+
+}
+.ig{
+	position: absolute;
+width: 213px;
+height: 21px;
+left: 207px;
+top: 2980px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: justify;
+
+color: #F2F2F2;
+}
+.waimg img{
+	position: absolute;
+width: 15.86px;
+height: 20px;
+left: 168px;
+top: 3020px;
+
+}
+.wa{
+	position: absolute;
+width: 213px;
+height: 21px;
+left: 207px;
+top: 3020px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: justify;
+
+color: #F2F2F2;
+}
+.emailimg img{
+position: absolute;
+width: 18.72px;
+height: 20px;
+left: 167px;
+top: 3070px;
+}
+.email{
+	position: absolute;
+width: 213px;
+height: 21px;
+left: 207px;
+top: 3070px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: justify;
+
+color: #F2F2F2;
+
+}
+.ytimg img{
+	position: absolute;
+width: 24.6px;
+height: 20px;
+left: 166px;
+top: 3115px;
+
+opacity: 0.3;
+}
+.yt{
+	position: absolute;
+width: 213px;
+height: 21px;
+left: 207px;
+top: 3115px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: justify;
+
+color: #F2F2F2;
+
+}
